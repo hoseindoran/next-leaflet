@@ -14,7 +14,7 @@ const Map = () => {
         return null;
     }
     return (
-        <MapContainer center={[36.314974, 59.540376]} zoom={14} style={{height: "100%", borderRadius: "5px"}} scrollWheelZoom={false}>
+        <MapContainer center={[36.314974, 59.540376]} zoom={14} style={{height: "100%", borderRadius: "5px"}} tap={false} scrollWheelZoom={false}>
             <TileLayer
                 attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
